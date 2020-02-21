@@ -1,6 +1,7 @@
 package com.kamilnazar.kitabeli.data
 
 
+import com.kamilnazar.kitabeli.data.models.Payload
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 

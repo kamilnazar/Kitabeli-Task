@@ -1,4 +1,4 @@
-package com.kamilnazar.kitabeli.data
+package com.kamilnazar.kitabeli.data.models
 
 
 import com.squareup.moshi.Json
