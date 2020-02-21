@@ -7,45 +7,45 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class ItemDTO(
     @Json(name = "breadcrumb")
-    val breadcrumb: String,
+    val breadcrumb: String? = null,
     @Json(name = "category")
-    val category: String,
+    val category: String? = null,
     @Json(name = "description")
-    val description: Description,
+    val description: Description? = null,
     @Json(name = "groupPrice")
-    val groupPrice: Int,
+    val groupPrice: Int? = null,
     @Json(name = "id")
-    val id: Int,
+    val id: Int? = null,
     @Json(name = "images")
-    val images: List<String>,
+    val images: List<String?>? = null,
     @Json(name = "inStock")
-    val inStock: Boolean,
+    val inStock: Boolean? = null,
     @Json(name = "itemCondition")
-    val itemCondition: String,
+    val itemCondition: String? = null,
     @Json(name = "itemUrl")
-    val itemUrl: String,
+    val itemUrl: String? = null,
     @Json(name = "merchantItemSold")
-    val merchantItemSold: String,
+    val merchantItemSold: String? = null,
     @Json(name = "merchantSuccessTransaction")
-    val merchantSuccessTransaction: String,
+    val merchantSuccessTransaction: String? = null,
     @Json(name = "name")
-    val name: String,
+    val name: String? = null,
     @Json(name = "price")
-    val price: Int,
+    val price: Int? = null,
     @Json(name = "quantity")
-    val quantity: Int,
+    val quantity: Int? = null,
     @Json(name = "rating")
-    val rating: String,
+    val rating: String? = null,
     @Json(name = "ratingCount")
-    val ratingCount: Int,
+    val ratingCount: Int? = null,
     @Json(name = "sellerLocation")
-    val sellerLocation: String,
+    val sellerLocation: String? = null,
     @Json(name = "sellerName")
-    val sellerName: String,
+    val sellerName: String? = null,
     @Json(name = "soloPrice")
-    val soloPrice: Int,
+    val soloPrice: Int? = null,
     @Json(name = "trending")
-    val trending: Int,
+    val trending: Int? = null,
     @Json(name = "unitSize")
-    val unitSize: String
+    val unitSize: String? = null
 )
