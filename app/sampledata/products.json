@@ -1,0 +1,676 @@
+{
+  "code": "0",
+  "message": "Success",
+  "payload": [
+    {
+      "itemId": 335,
+      "itemDTO": {
+        "id": 335,
+        "price": 89000,
+        "unitSize": "",
+        "name": "Pantene Shampoo Anti Ketombe 750ml [P&G]",
+        "sellerName": "Kecantikan",
+        "sellerLocation": "KOTA JAKARTA UTARA",
+        "category": "Perawatan Tubuh",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Pantene-Shampoo-Anti-Ketombe-750ml--P-G--i.11487927.118444134",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Lindungi rambut anda dengan Pantene Shampoo Anti Ketombe. Sampo ini membersihkan rambut Anda dari kotoran dan debu yang menempel. Dengan adanya anti dandruff pada sampo ini, membuat sampo ini menghilangkan ketombe ataupun menghindari timbulnya ketombe pada kulit kepala Anda. Sampo ini juga dapat menyeimbangkan pH pada kulit kepala Anda, sehingga sangat aman dipakai setiap hari. Rambut Anda akan lebih indah tanpa ketombe dan Anda akan merasakan kesegaran yang sempurna dari Pantene Shampoo Anti Ketombe ini, dan sampo ini juga dapat digunakan untuk segala jenis tipe rambut.\r\n\r\nKetombe dan kerusakan rambut bisa terjadi pada saat bersamaan, tetapi kamu tidak perlu memilih untuk mengatasi salah satunya.\r\n\r\nFormula Pro-Vitamin dengan ZPT\r\nâ€¢ Dengan penggunaan teratur, tidak hanya membantu mengatasi ketombe tetapi juga membantu memperbaiki kerusakan rambut\r\nâ€¢ Membantu mencegah ketombe dan mengurangi kerusakan rambut\r\n\r\nCara Penggunaan :\r\nUsapkan sampo pada rambut/ kulit kepala yang basah dengan lembut. Bilas hingga bersih.\r\n\r\nWarning :\r\nHindari kontak dengan mata. Jika terjadi, basuh dengan air sampai bersih.\r\n",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 1728,
+            "star": 4.914203
+          },
+          "variantInfo": {}
+        },
+        "quantity": 140,
+        "rating": "4.914",
+        "ratingCount": 1728,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/0908a7678916385cde31d408ded68f10",
+          "https://cf.shopee.co.id/file/b5e82b1b015961f85d4f03ca41db42b4",
+          "https://cf.shopee.co.id/file/791fab01e7ae02806bb2861b88d9094b",
+          "https://cf.shopee.co.id/file/8ae4b411d69d0717da1c9435366cf29d",
+          "https://cf.shopee.co.id/file/9e4c88afbf8df321ffae9409311f3a91",
+          "https://cf.shopee.co.id/file/40a7b21de4a9a92f056bf8c5d692cad8",
+          "https://cf.shopee.co.id/file/f45a1923cbfecef0c936f0634a6b0da2",
+          "https://cf.shopee.co.id/file/25825bc49c3f866f015cd4f08a11b786",
+          "https://cf.shopee.co.id/file/54cf86fae08af24e5ed7fbeac0a0e70b"
+        ],
+        "breadcrumb": "Kecantikan,Perawatan Rambut,Shampo",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 89000,
+        "groupPrice": 79680,
+        "itemUrl": "\"https://shopee.co.id/Pantene-Shampoo-Anti-Ketombe-750ml--P-G--i.11487927.118444134\""
+      },
+      "groupPrice": 79680,
+      "itemPrice": 89000,
+      "itemGroupId": 3874,
+      "leaderId": 61,
+      "leaderName": "Bayu",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Bayu"
+      ],
+      "groupMemberIds": [
+        61
+      ],
+      "expireAt": 1582351214,
+      "type": "GROUP",
+      "category": "Perawatan Tubuh"
+    },
+    {
+      "itemId": 533,
+      "itemDTO": {
+        "id": 533,
+        "price": 45000,
+        "unitSize": "",
+        "name": "Inul Beauty Lipstick Semi Matte",
+        "sellerName": "kitabeli",
+        "sellerLocation": "KOTA JAKARTA SELATAN",
+        "category": "Kecantikan",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Inul-Beauty-Lipstick-Semi-Matte-i.49143160.779838527",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Warna :\n1. Cleopatra\n2. Freya\n3. Helen\n4. Pandora\n5. Venus\n\nLipstick Semi Matte\nMenyerap di bibir\nJadi walaupun hilang warna nya tapi bibir akan tetap berwarna\nHarga ekonomis",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 670,
+            "star": 4.82009
+          },
+          "variantInfo": {
+            "Cleopatra": 38500,
+            "Freya": 38500,
+            "Helen": 38500,
+            "Pandora": 38500,
+            "Venus": 38500
+          }
+        },
+        "quantity": 353,
+        "rating": "4.820",
+        "ratingCount": 670,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/00840247ea09c9003edea2ce7cd79c03",
+          "https://cf.shopee.co.id/file/d1a0fb983278ba255f47e5971d9946f6",
+          "https://cf.shopee.co.id/file/e8aa5d8fa5694a6ddfb39aab0823d830",
+          "https://cf.shopee.co.id/file/0fb01a3c1c19b14dad26527cd3d41729",
+          "https://cf.shopee.co.id/file/c643f8ee1524f6e09c8d46617877df85",
+          "https://cf.shopee.co.id/file/1e96f65892b0b10138d5f6f1097eee36"
+        ],
+        "breadcrumb": "Kecantikan,Kosmetik Bibir,Lipstik",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 45000,
+        "groupPrice": 40000,
+        "itemUrl": "\"https://shopee.co.id/Inul-Beauty-Lipstick-Semi-Matte-i.49143160.779838527\""
+      },
+      "groupPrice": 40000,
+      "itemPrice": 45000,
+      "itemGroupId": 3873,
+      "leaderId": 65,
+      "leaderName": "Rama",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Rama"
+      ],
+      "groupMemberIds": [
+        65
+      ],
+      "expireAt": 1582350611,
+      "type": "GROUP",
+      "category": "Kecantikan"
+    },
+    {
+      "itemId": 100,
+      "itemDTO": {
+        "id": 100,
+        "price": 52000,
+        "unitSize": "",
+        "name": "MamyPoko Pants Extra Dry - XL 17 - Popok Celana",
+        "sellerName": "Ibu and Bayi",
+        "sellerLocation": "KOTA TANGERANG",
+        "category": "Ibu dan Bayi",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/-SALE--MamyPoko-Pants-Extra-Dry---XL-17---Popok-Celana-i.65901744.4300874842",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "MamyPoko Pants Extra Dry dengan desain Mickey Mouse yang lucu! Popok celananya berbahan lembut, bebas gembung dan mudah diganti. Si Kecil bebas bergerak, aman dan nyaman tanpa khawatir bocor atau iritasi.\n\n7 Desain Baru Mickey Mouse\nDengan desain Mickey Mouse yang lucu, bikin interaksi Mamy dan Si Kecil saat berganti popok jadi lebih menyenangkan!\n\nMenyerap Banyak dan Cepat\nDaya serap banyak dan cepat sehingga mencegah bocor dan pantat bayi tetap kering. Mampu menampung hingga 350 ml atau setara dengan 5 kali pipis bayi. Si Kecil tidak perlu terlalu sering berganti popok, ia pun bisa bermain dan tidur lebih leluasa!\n\nSirkulasi Udara Menyeluruh\nPopok bersirkulasi udara, mencegah panas sehingga nyaman saat digunakan. Kulit Si Kecil tetap kering dan tidak mudah iritasi.",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 68,
+            "star": 4.882353
+          },
+          "variantInfo": {}
+        },
+        "quantity": 232,
+        "rating": "4.882",
+        "ratingCount": 68,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/a5e43244411117e4ddac0ad95e013b6f",
+          "https://cf.shopee.co.id/file/740388a21c45a4449b4174be06634dee",
+          "https://cf.shopee.co.id/file/f9858fb18da3429d4c4ae6439526b669",
+          "https://cf.shopee.co.id/file/321a269b55d52666fa4d0b68cdc98055",
+          "https://cf.shopee.co.id/file/31f108f7543300e7e90420820de6ac18",
+          "https://cf.shopee.co.id/file/1d5c7f6a7bde3c406b8bdddefa12703e",
+          "https://cf.shopee.co.id/file/88c618987f230065ce42e7359c3e3686",
+          "https://cf.shopee.co.id/file/1a5760291ce456ef7382feea9f24fe14"
+        ],
+        "breadcrumb": "Ibu & Bayi,Popok Bayi,Popok Sekali Pakai",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 52000,
+        "groupPrice": 46000,
+        "itemUrl": "\"https://shopee.co.id/-SALE--MamyPoko-Pants-Extra-Dry---XL-17---Popok-Celana-i.65901744.4300874842\""
+      },
+      "groupPrice": 46000,
+      "itemPrice": 52000,
+      "itemGroupId": 3872,
+      "leaderId": 50,
+      "leaderName": "Sakinah",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Sakinah"
+      ],
+      "groupMemberIds": [
+        50
+      ],
+      "expireAt": 1582349411,
+      "type": "GROUP",
+      "category": "Ibu dan Bayi"
+    },
+    {
+      "itemId": 285,
+      "itemDTO": {
+        "id": 285,
+        "price": 24000,
+        "unitSize": "",
+        "name": "Attack Hygine Plus Protection 800gr",
+        "sellerName": "Perlengkapan Rumah",
+        "sellerLocation": "KOTA JAKARTA UTARA",
+        "category": "Perlengkapan Rumah",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Attack-Hygine-Plus-Protection-800gr-i.36092728.624582282",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Detergent konsentrat High- Technology dengan formula dahsyat 3D Clean Action sehingga pakaian anda putih cemerlang. Anti kuman dan bebas noda, extra detergency secara menyeluruh sampai ke serat kain. Pakaian putih cemerlang karena zat pencermerlang yang terkandung membuat pakaian putih seperti baru. Anti Kuman mencegah bau apek meskipun pengeringan tidak sempurna atau direndam semalaman. Bebas noda dengn formula max power mengangkat noda dengan tuntas\r\n\r\nUntuk hasil terbaik, lakukan pencucian sesuai dengan langkah-langkah sebagai berikut:\r\n1) Pisahkan cucian yang mudah luntur\r\n2) Larutkan Attack dengan sempurna sesuai takaran yang dianjurkan, rendam cucian selama 30 menit\r\n3) Cuci hingga bersih (mencuci dengan tangan: 1 sendok takar untuk 10 potong pakaian, dengan 10 liter air ; mencuci dengan mesin: 1 sendok takar untuk 10 potong pakaian, dengan 40 liter air)\r\n\r\n**PERHATIAN!\r\nUntuk barang-barang berdimensi besar kami akan menggunakan perhitungan berat volumetrik dengan rumus Panjang (cm) X Lebar (cm) X Tinggi (cm) : 6000. Apabila terjadi perbedaan berat tersebut, maka kami akan menghubungi pembeli mengenai perbedaan selisih ongkos kirim yang akan terjadi.",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 169,
+            "star": 4.827381
+          },
+          "variantInfo": {}
+        },
+        "quantity": 109,
+        "rating": "4.827",
+        "ratingCount": 169,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/18b8e8829169ab99e98d37dc0cd34e87",
+          "https://cf.shopee.co.id/file/feca42c625c096793b5fad41ea9e5beb",
+          "https://cf.shopee.co.id/file/a1c5296ce63633a7736e680b2788a983",
+          "https://cf.shopee.co.id/file/6d8efb57a3cd7541f2af117d043cd170",
+          "https://cf.shopee.co.id/file/195ca3d4e5dab73cf42b73a4b1101a64",
+          "https://cf.shopee.co.id/file/3acd7f95f2c820ea83de17a8bc9fe009",
+          "https://cf.shopee.co.id/file/5dbd49f5f97845b173c17fbb17a79d9e"
+        ],
+        "breadcrumb": "Perlengkapan Rumah,Kebersihan & Binatu,Perawatan Pakaian ",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 24000,
+        "groupPrice": 20000,
+        "itemUrl": "\"https://shopee.co.id/Attack-Hygine-Plus-Protection-800gr-i.36092728.624582282\""
+      },
+      "groupPrice": 20000,
+      "itemPrice": 24000,
+      "itemGroupId": 3871,
+      "leaderId": 66,
+      "leaderName": "Nathan",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Nathan"
+      ],
+      "groupMemberIds": [
+        66
+      ],
+      "expireAt": 1582343411,
+      "type": "GROUP",
+      "category": "Perlengkapan Rumah"
+    },
+    {
+      "itemId": 566,
+      "itemDTO": {
+        "id": 566,
+        "price": 60000,
+        "unitSize": "",
+        "name": "Beras Setra Ramos Slyp Super 5Kg Premium Super",
+        "sellerName": "kitabeli",
+        "sellerLocation": "KOTA JAKARTA TIMUR",
+        "category": "Bahan Pokok",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Beras-Setra-Ramos-Slyp-Super-5Kg-50Kg-i.148868598.2245778347",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Beras Setra Ramos Premium 5kg",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 978,
+            "star": 4.865088
+          },
+          "variantInfo": {}
+        },
+        "quantity": 78858,
+        "rating": "4.865",
+        "ratingCount": 978,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/f5c8bd3a30c7e917995f4647df2d812b"
+        ],
+        "breadcrumb": "Makanan & Minuman,Bahan Pokok,Beras",
+        "trending": 5,
+        "inStock": true,
+        "soloPrice": 60000,
+        "groupPrice": 53500,
+        "itemUrl": "\"https://shopee.co.id/Beras-Setra-Ramos-Slyp-Super-5Kg-50Kg-i.148868598.2245778347\""
+      },
+      "groupPrice": 53500,
+      "itemPrice": 60000,
+      "itemGroupId": 3870,
+      "leaderId": 1684,
+      "leaderName": "Yesica Clara",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/sheep.png",
+      "userNames": [
+        "Yesica Clara"
+      ],
+      "groupMemberIds": [
+        1684
+      ],
+      "expireAt": 1582342148,
+      "type": "GROUP",
+      "category": "Bahan Pokok"
+    },
+    {
+      "itemId": 513,
+      "itemDTO": {
+        "id": 513,
+        "price": 47000,
+        "unitSize": "",
+        "name": "Lingkar Organik Beras 1Kg Mentik Putih",
+        "sellerName": "kitabeli",
+        "sellerLocation": "KAB. TANGERANG",
+        "category": "Bahan Pokok",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Lingkar-Organik-Beras-Organic-1-Kg-Pandan-Wangi-Putih-Merah-Hitam-i.2938811.1719623983",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Mpasi Beras Organik\n\nBeras dalam kondisi baru, tanpa zat pewarna dan pengawet sintetis\nProduk bersertifikasi ORGANIK INDONESIA\nBerat 1 kg\nProduksi dan dikemas oleh Lingkar Organik\nBeras pecah <5%\nKemas Plastik Nylon 0.8 mikron \n\nVarian :\n- Beras Merah Organik\n- Beras Pandan Wangi Putih\n- Beras Hitam\n- Beras MIX Hitam Coklat Merah\n- Beras Mentik Putih",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 1188,
+            "star": 4.852167
+          },
+          "variantInfo": {}
+        },
+        "quantity": 1144,
+        "rating": "4.852",
+        "ratingCount": 1188,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/0ad8e8750fa1864844ce6c08725ebc88",
+          "https://cf.shopee.co.id/file/6a26452759ca4dc1427c70e41c10919b",
+          "https://cf.shopee.co.id/file/02449cad675e3583296bb32cc35bdbd1",
+          "https://cf.shopee.co.id/file/2b18482e492bcb77d03eae6c6f1c7ada",
+          "https://cf.shopee.co.id/file/0b1ec7d60a9957089070062dc98053d4"
+        ],
+        "breadcrumb": "Ibu & Bayi,Makanan Bayi,Makanan Bayi Organik",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 47000,
+        "groupPrice": 41280,
+        "itemUrl": "\"https://shopee.co.id/Lingkar-Organik-Beras-Organic-1-Kg-Pandan-Wangi-Putih-Merah-Hitam-i.2938811.1719623983\""
+      },
+      "groupPrice": 41280,
+      "itemPrice": 47000,
+      "itemGroupId": 3869,
+      "leaderId": 46,
+      "leaderName": "Saras",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Saras"
+      ],
+      "groupMemberIds": [
+        46
+      ],
+      "expireAt": 1582341008,
+      "type": "GROUP",
+      "category": "Bahan Pokok"
+    },
+    {
+      "itemId": 442,
+      "itemDTO": {
+        "id": 442,
+        "price": 52000,
+        "unitSize": "",
+        "name": "Wardah Lip Cream Exclusive Matte Cair Lipcream",
+        "sellerName": "kitabeli",
+        "sellerLocation": "KOTA JAKARTA UTARA",
+        "category": "Kecantikan",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/ORIGINAL-Wardah-Lip-Cream-Exclusive-Matte-Cair-Lipcream-i.8175160.742452064",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Berat Netto: 4 gr\n\n\nNOTE: \n\"LIP CREAM WARDAH PALSU DAN TIDAK HALAL SUDAH MULAI BEREDAR.\"\n\nHARAP LEBIH BERHATI-HATI, TERUTAMA YANG AKAN ORDER DALAM JUMLAH BESAR.\n\nKAMI TETAP HANYA MENJUAL YANG ORIGINAL. TIDAK MENJUAL PALSU\n\nHARGA TERMURAH KUALITAS TERBAIK\n01. RED DICTED\n02. FUSCHIONATELY\n03. SEE YOU LATTE\n04. PINK ME\n05. SPEACHLESS\n06. LIGHT RED\n07. HELLO RUBY\n08. PINKCREDIBLE\n09. MAUVE ON!\n10. BERRY PRETTY\n11. OH SO NUDE! \n12. PLUM IT UP \n13. FRUIT PUNCH - NEW SHADE \n14. MY HONEY BEE - NEW SHADE \n15. PINKY PLUMISE - NEW SHADE \n16. HEART BEET - NEW SHADE \n17. ROSY CHEEK - NEW SHADE\n18. SATURDATE NIGHT - NEW SHADE\n\nCARA PILIH WARNA :\n1. KLIK WARNA PERTAMA\n2. KLIK TAMBAH KERANJANG\n3. KLIK WARNA KEDUA\n4. KLIK KERANJANG\n5... SETERUSNYA\nKalau sudah selesai baru klik checkout\n\n#lipcream #lip #cream #wardah #lipcreamwardah #matte #mattewardah #wardahmatte #wardahlipcream",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 134207,
+            "star": 4.881488
+          },
+          "variantInfo": {
+            "RED DICTED 1": 44020,
+            "FUSCHIONATELY 2": 44020,
+            "SEE YOU LATTE 3": 44020,
+            "PINK ME 4": 44020,
+            "SPEACHLESS 5": 44020,
+            "FEELING RED 6": 44020,
+            "HELLO RUBY 7": 44020,
+            "PINKCREDIBLE 8": 44020,
+            "MAUVE ON 9": 44020,
+            "BERRY PRETTY 10": 44020,
+            "OH SO NUDE 11": 44020,
+            "PLUM IT UP 12": 44020,
+            "FRUIT PUNCH 13": 44020,
+            "MY HONEY BEE 14": 44020,
+            "PINKY PLUMISE 15": 44020,
+            "HEARTBEET 16": 44020,
+            "ROSY CHEEK 17": 44020,
+            "SATURDATE NIGHT 18": 44020
+          }
+        },
+        "quantity": 151046,
+        "rating": "4.881",
+        "ratingCount": 134207,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/c9ec6fdd2b8f99345fe162c74b017c66",
+          "https://cf.shopee.co.id/file/9c4f8e585297c007434e87b81a731813",
+          "https://cf.shopee.co.id/file/253051043ba2f2123f5791fb60c01960",
+          "https://cf.shopee.co.id/file/12ad640d693f61ab3cdcf15d75faf83f",
+          "https://cf.shopee.co.id/file/5bf2895c42c8272cb93892cc173ec418",
+          "https://cf.shopee.co.id/file/0d3e39d9baab36e75ea4f1021786b3f0",
+          "https://cf.shopee.co.id/file/7f83c422bb16627ce9dd5d4723f1d92a"
+        ],
+        "breadcrumb": "Kecantikan,Kosmetik Bibir,Lipstik",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 52000,
+        "groupPrice": 46000,
+        "itemUrl": "\"https://shopee.co.id/ORIGINAL-Wardah-Lip-Cream-Exclusive-Matte-Cair-Lipcream-i.8175160.742452064\""
+      },
+      "groupPrice": 46000,
+      "itemPrice": 52000,
+      "itemGroupId": 3868,
+      "leaderId": 5,
+      "leaderName": "Prateek",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/sheep.png",
+      "userNames": [
+        "Prateek"
+      ],
+      "groupMemberIds": [
+        5
+      ],
+      "expireAt": 1582340867,
+      "type": "GROUP",
+      "category": "Kecantikan"
+    },
+    {
+      "itemId": 452,
+      "itemDTO": {
+        "id": 452,
+        "price": 35000,
+        "unitSize": "",
+        "name": "Tropical Minyak Goreng 2L",
+        "sellerName": "kitabeli",
+        "sellerLocation": "KOTA JAKARTA BARAT",
+        "category": "Bahan Pokok",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Minyak-goreng-Tropical-Bimoli-Filma-Sania-Sovia-Roseband-Resto-Kemasan-2-liter-i.24190817.2558417962",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Tropical Minyak Goreng 2L",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 178,
+            "star": 4.976048
+          },
+          "variantInfo": {}
+        },
+        "quantity": 1554,
+        "rating": "4.976",
+        "ratingCount": 178,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://assets.klikindomaret.com/share/10000053_1.jpg"
+        ],
+        "breadcrumb": "Makanan & Minuman,Bahan Pokok,Minyak",
+        "trending": 5,
+        "inStock": true,
+        "soloPrice": 35000,
+        "groupPrice": 30000,
+        "itemUrl": "\"https://shopee.co.id/Minyak-goreng-Tropical-Bimoli-Filma-Sania-Sovia-Roseband-Resto-Kemasan-2-liter-i.24190817.2558417962\""
+      },
+      "groupPrice": 30000,
+      "itemPrice": 35000,
+      "itemGroupId": 3867,
+      "leaderId": 1684,
+      "leaderName": "Yesica Clara",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/sheep.png",
+      "userNames": [
+        "Yesica Clara"
+      ],
+      "groupMemberIds": [
+        1684
+      ],
+      "expireAt": 1582340488,
+      "type": "GROUP",
+      "category": "Bahan Pokok"
+    },
+    {
+      "itemId": 73,
+      "itemDTO": {
+        "id": 73,
+        "price": 57000,
+        "unitSize": "",
+        "name": "Charm Pembalut Safe Night 35cm Gather 18 pads - 2 packs",
+        "sellerName": "Makanan",
+        "sellerLocation": "KOTA TANGERANG",
+        "category": "Ibu dan Bayi",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/Charm-Pembalut-Safe-Night-35cm-Gather-18-pads---2-packs-i.65901744.1896706245",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "Aman, Nyenyak Sampai Pagi !\nDengan pelindung samping, CHARM Safe Night Gathers 35cm memberikan perlindungan anti bocor belakang, rasa aman dan nyaman untuk tidur semalaman. Nyenyak sampai pagi !\n\nFleksibel Butterfly Wing\nyang Lebar dan flexibel di bagian belakang, mencegah bocor saat kamu tidur. Meski berguling tetap pas di badan.\nDilengkapi juga dengan Dinding Pelindung Samping yang dapat mencegah bocor samping.\n\nZona Triple Proteksi\nMenyerap lalu mengunci cairan, mencegah pembalut bocor.\n\nPermukaan yang Lembut di Kulit\nPermukaan halus, menyentuh kulit dengan lembut. Kamu tetap nyaman tidur dimalam hari.\n\n*Baik digunakan dalam 3 tahun setelah masa produksi",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 224,
+            "star": 4.90625
+          },
+          "variantInfo": {}
+        },
+        "quantity": 34,
+        "rating": "4.906",
+        "ratingCount": 224,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/fb2f860fc425c929f273e6e28e590775",
+          "https://cf.shopee.co.id/file/38ec74f33810a12813ffbd80e92bfdfb",
+          "https://cf.shopee.co.id/file/80aa1611e143c2254c1add40624b0f3a",
+          "https://cf.shopee.co.id/file/13ca9bd4e628a0247066899374a41fb6",
+          "https://cf.shopee.co.id/file/05bab187eaca93d0023d5bdb22617be7",
+          "https://cf.shopee.co.id/file/05729beccaa7f4a45f7b75e339a7d395",
+          "https://cf.shopee.co.id/file/430c26981797ddf38dcf9bb1cddc380a"
+        ],
+        "breadcrumb": "Kesehatan,Perawatan Diri,Kewanitaan",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 57000,
+        "groupPrice": 50880,
+        "itemUrl": "\"https://shopee.co.id/Charm-Pembalut-Safe-Night-35cm-Gather-18-pads---2-packs-i.65901744.1896706245\""
+      },
+      "groupPrice": 50880,
+      "itemPrice": 57000,
+      "itemGroupId": 3866,
+      "leaderId": 66,
+      "leaderName": "Nathan",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Nathan"
+      ],
+      "groupMemberIds": [
+        66
+      ],
+      "expireAt": 1582340411,
+      "type": "GROUP",
+      "category": "Ibu dan Bayi"
+    },
+    {
+      "itemId": 1178,
+      "itemDTO": {
+        "id": 1178,
+        "price": 70000,
+        "unitSize": "1 pack",
+        "name": "Rumah Pale Ikan Marlin Portion Cut",
+        "sellerName": "",
+        "sellerLocation": "",
+        "category": "Sayur, Buah dan Daging",
+        "description": {
+          "tokopedia_url": "https://www.sayurbox.com/shop-detail?name=Rumah+Pale+Ikan+Marlin+Portion+Cut+550+gram",
+          "description": "Rumah Pale Ikan Marlin Portion Cut 550 gram"
+        },
+        "quantity": 1,
+        "rating": "5",
+        "ratingCount": 1,
+        "itemCondition": "",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/project-2059615900628317391.appspot.com/o/vegetable-new%2F1568961365588_merlin_portion_cut_300.jpg?alt=media"
+        ],
+        "breadcrumb": "",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 70000,
+        "groupPrice": 62400,
+        "itemUrl": "\"https://www.sayurbox.com/shop-detail?name=Rumah+Pale+Ikan+Marlin+Portion+Cut+550+gram\""
+      },
+      "groupPrice": 62400,
+      "itemPrice": 70000,
+      "itemGroupId": 3865,
+      "leaderId": 69,
+      "leaderName": "Jeffry",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Jeffry"
+      ],
+      "groupMemberIds": [
+        69
+      ],
+      "expireAt": 1582339809,
+      "type": "GROUP",
+      "category": "Sayur, Buah dan Daging"
+    },
+    {
+      "itemId": 47,
+      "itemDTO": {
+        "id": 47,
+        "price": 76000,
+        "unitSize": "",
+        "name": "MamyPoko Pants Extra Dry - XXL 22 - Popok Celana",
+        "sellerName": "Ibu and Bayi",
+        "sellerLocation": "KOTA TANGERANG",
+        "category": "Ibu dan Bayi",
+        "description": {
+          "tokopedia_url": "https://shopee.co.id/-SALE--MamyPoko-Pants-Extra-Dry---XXL-22---Popok-Celana-i.65901744.3401593510",
+          "merchantInfo": "",
+          "orderInfo": "",
+          "description": "MamyPoko Pants Extra Dry dengan desain Mickey Mouse yang lucu! Popok celananya berbahan lembut, bebas gembung dan mudah diganti. Si Kecil bebas bergerak, aman dan nyaman tanpa khawatir bocor atau iritasi.\n\n7 Desain Baru Mickey Mouse\nDengan desain Mickey Mouse yang lucu, bikin interaksi Mamy dan Si Kecil saat berganti popok jadi lebih menyenangkan!\n\nMenyerap Banyak dan Cepat\nDaya serap banyak dan cepat sehingga mencegah bocor dan pantat bayi tetap kering. Mampu menampung hingga 350 ml atau setara dengan 5 kali pipis bayi. Si Kecil tidak perlu terlalu sering berganti popok, ia pun bisa bermain dan tidur lebih leluasa!\n\nSirkulasi Udara Menyeluruh\nPopok bersirkulasi udara, mencegah panas sehingga nyaman saat digunakan. Kulit Si Kecil tetap kering dan tidak mudah iritasi.",
+          "delivery_options": "",
+          "weight": "",
+          "review": {
+            "count": 324,
+            "star": 4.875776
+          },
+          "variantInfo": {}
+        },
+        "quantity": 287,
+        "rating": "4.875",
+        "ratingCount": 324,
+        "itemCondition": "Baru",
+        "merchantSuccessTransaction": "",
+        "merchantItemSold": "",
+        "images": [
+          "https://cf.shopee.co.id/file/70e78c12e6d06029f6f098d99eb353d0",
+          "https://cf.shopee.co.id/file/740388a21c45a4449b4174be06634dee",
+          "https://cf.shopee.co.id/file/f9858fb18da3429d4c4ae6439526b669",
+          "https://cf.shopee.co.id/file/321a269b55d52666fa4d0b68cdc98055",
+          "https://cf.shopee.co.id/file/2b77bfcbb24f76a0969efcc5ae8787d4",
+          "https://cf.shopee.co.id/file/5198a320c83404a7f1c515c674eca6c3",
+          "https://cf.shopee.co.id/file/61fac451e93d60e9b314eacda01f969e",
+          "https://cf.shopee.co.id/file/e48704fe553f508c3f36da3db9dac48f"
+        ],
+        "breadcrumb": "Ibu & Bayi,Popok Bayi,Popok Sekali Pakai",
+        "trending": 1,
+        "inStock": true,
+        "soloPrice": 76000,
+        "groupPrice": 68160,
+        "itemUrl": "\"https://shopee.co.id/-SALE--MamyPoko-Pants-Extra-Dry---XXL-22---Popok-Celana-i.65901744.3401593510\""
+      },
+      "groupPrice": 68160,
+      "itemPrice": 76000,
+      "itemGroupId": 3864,
+      "leaderId": 58,
+      "leaderName": "Nabila",
+      "leaderAvatar": "https://juali-assets.s3.us-east-2.amazonaws.com/avatars/bear.png",
+      "userNames": [
+        "Nabila"
+      ],
+      "groupMemberIds": [
+        58
+      ],
+      "expireAt": 1582339210,
+      "type": "GROUP",
+      "category": "Ibu dan Bayi"
+    }
+  ]
+}

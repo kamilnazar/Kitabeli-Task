@@ -32,7 +32,7 @@
         android:gravity="start"
         android:maxLines="1"
         android:scrollHorizontally="true"
-        android:text="MamyPoko Pants Extra Dry - XL 17 - Popok Celana"
+        tools:text="@sample/products.json/payload/itemDTO/name"
         android:textAlignment="gravity"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/strikethrough_shape"
-        android:text="Rp 35000"
+        tools:text="@sample/products.json/payload/itemDTO/price"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/item_name" />
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:text="Rp 30000"
+        tools:text="@sample/products.json/payload/itemDTO/groupPrice"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="@+id/item_price"
         app:layout_constraintStart_toEndOf="@+id/item_price" />
