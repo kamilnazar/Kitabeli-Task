@@ -9,10 +9,10 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="86dp"
+        android:id="@+id/group_image"
+        android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,12 +32,12 @@
         android:gravity="start"
         android:maxLines="1"
         android:scrollHorizontally="true"
-        tools:text="@sample/products.json/payload/itemDTO/name"
         android:textAlignment="gravity"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/group_image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@sample/products.json/payload/itemDTO/name" />
 
     <TextView
         android:id="@+id/item_price"
@@ -46,20 +46,20 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/strikethrough_shape"
-        tools:text="@sample/products.json/payload/itemDTO/price"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/item_name" />
+        app:layout_constraintStart_toEndOf="@+id/group_image"
+        app:layout_constraintTop_toBottomOf="@+id/item_name"
+        tools:text="@sample/products.json/payload/itemDTO/price" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/group_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        tools:text="@sample/products.json/payload/itemDTO/groupPrice"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="@+id/item_price"
-        app:layout_constraintStart_toEndOf="@+id/item_price" />
+        app:layout_constraintStart_toEndOf="@+id/item_price"
+        tools:text="@sample/products.json/payload/itemDTO/groupPrice" />
 
     <TextView
         android:id="@+id/time_label"
@@ -68,11 +68,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Time:"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/group_image"
         app:layout_constraintTop_toBottomOf="@+id/item_price" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/group_timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -82,17 +82,18 @@
         app:layout_constraintStart_toEndOf="@+id/time_label" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/group_join_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/materialGreen"
+        android:background="@drawable/button_state"
+        android:elevation="4dp"
         android:text="Button"
         android:textColor="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/group_image"
         app:layout_constraintTop_toBottomOf="@+id/time_label" />
 
     <View
@@ -102,6 +103,6 @@
         android:background="@drawable/list_divider_shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/group_image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

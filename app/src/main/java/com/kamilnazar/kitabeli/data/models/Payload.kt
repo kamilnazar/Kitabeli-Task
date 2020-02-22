@@ -9,7 +9,7 @@ data class Payload(
     @Json(name = "category")
     val category: String? = null,
     @Json(name = "expireAt")
-    val expireAt: Int? = null,
+    val expireAt: Long? = null,
     @Json(name = "groupMemberIds")
     val groupMemberIds: List<Int?>? = null,
     @Json(name = "groupPrice")
