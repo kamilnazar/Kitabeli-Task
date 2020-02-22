@@ -1,35 +1,82 @@
 package com.kamilnazar.kitabeli.data.models
 
 
+import androidx.room.*
+import com.kamilnazar.kitabeli.data.convertor.ListTypeConvertor
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
+@Entity(tableName = "groups")
 @JsonClass(generateAdapter = true)
 data class Payload(
+    @PrimaryKey(autoGenerate = true) @ColumnInfo @Transient var id: Int = 0,
     @Json(name = "category")
-    val category: String? = null,
+    var category: String? = null,
     @Json(name = "expireAt")
-    val expireAt: Long? = null,
+    var expireAt: Long? = null,
     @Json(name = "groupMemberIds")
-    val groupMemberIds: List<Int?>? = null,
+    @TypeConverters(ListTypeConvertor::class)
+    var groupMemberIds: List<Int?>? = null,
     @Json(name = "groupPrice")
-    val groupPrice: Int? = null,
+    var groupPrice: Int? = null,
     @Json(name = "itemDTO")
-    val itemDTO: ItemDTO? = null,
+    @Embedded(prefix = "item_dto_")
+    var itemDTO: ItemDTO? = null,
     @Json(name = "itemGroupId")
-    val itemGroupId: Int? = null,
+    var itemGroupId: Int? = null,
     @Json(name = "itemId")
-    val itemId: Int? = null,
+    var itemId: Int? = null,
     @Json(name = "itemPrice")
-    val itemPrice: Int? = null,
+    var itemPrice: Int? = null,
     @Json(name = "leaderAvatar")
-    val leaderAvatar: String? = null,
+    var leaderAvatar: String? = null,
     @Json(name = "leaderId")
-    val leaderId: Int? = null,
+    var leaderId: Int? = null,
     @Json(name = "leaderName")
-    val leaderName: String? = null,
+    var leaderName: String? = null,
     @Json(name = "type")
-    val type: String? = null,
+    var type: String? = null,
     @Json(name = "userNames")
-    val userNames: List<String?>? = null
-)
+    @TypeConverters(ListTypeConvertor::class)
+    var userNames: List<String?>? = null
+) {
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as Payload
+
+        if (category != other.category) return false
+        if (expireAt != other.expireAt) return false
+        if (groupMemberIds != other.groupMemberIds) return false
+        if (groupPrice != other.groupPrice) return false
+        if (itemDTO != other.itemDTO) return false
+        if (itemGroupId != other.itemGroupId) return false
+        if (itemId != other.itemId) return false
+        if (itemPrice != other.itemPrice) return false
+        if (leaderAvatar != other.leaderAvatar) return false
+        if (leaderId != other.leaderId) return false
+        if (leaderName != other.leaderName) return false
+        if (type != other.type) return false
+        if (userNames != other.userNames) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = category?.hashCode() ?: 0
+        result = 31 * result + (expireAt?.hashCode() ?: 0)
+        result = 31 * result + (groupMemberIds?.hashCode() ?: 0)
+        result = 31 * result + (groupPrice ?: 0)
+        result = 31 * result + (itemDTO?.hashCode() ?: 0)
+        result = 31 * result + (itemGroupId ?: 0)
+        result = 31 * result + (itemId ?: 0)
+        result = 31 * result + (itemPrice ?: 0)
+        result = 31 * result + (leaderAvatar?.hashCode() ?: 0)
+        result = 31 * result + (leaderId ?: 0)
+        result = 31 * result + (leaderName?.hashCode() ?: 0)
+        result = 31 * result + (type?.hashCode() ?: 0)
+        result = 31 * result + (userNames?.hashCode() ?: 0)
+        return result
+    }
+}

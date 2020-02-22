@@ -3,7 +3,6 @@ package com.kamilnazar.kitabeli.util
 import android.content.res.Resources
 import android.util.DisplayMetrics
 import kotlin.math.roundToInt
-import kotlin.time.seconds
 
 
 fun Int.pxToDp(): Float {

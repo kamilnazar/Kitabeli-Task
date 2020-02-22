@@ -1,6 +1,9 @@
 package com.kamilnazar.kitabeli.data.models
 
 
+import androidx.room.Embedded
+import androidx.room.TypeConverters
+import com.kamilnazar.kitabeli.data.convertor.ListTypeConvertor
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
@@ -10,13 +13,14 @@ data class ItemDTO(
     val breadcrumb: String? = null,
     @Json(name = "category")
     val category: String? = null,
-    @Json(name = "description")
+    @Json(name = "description") @Embedded
     val description: Description? = null,
     @Json(name = "groupPrice")
     val groupPrice: Int? = null,
     @Json(name = "id")
     val id: Int? = null,
     @Json(name = "images")
+    @TypeConverters(ListTypeConvertor::class)
     val images: List<String?>? = null,
     @Json(name = "inStock")
     val inStock: Boolean? = null,

@@ -14,14 +14,16 @@ class GroupListActivity : BaseActivity() {
     lateinit var providor: GroupListViewModelFactory
 
     private val viewModel by viewModels<GroupListViewModel> { providor }
+    private val adapter = GroupListAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.open_group_list)
         inject()
+        group_list.layoutManager = LinearLayoutManager(this)
+        group_list.adapter = adapter
         viewModel.groups.observe(this) { groupList ->
-            group_list.layoutManager = LinearLayoutManager(this)
-            group_list.adapter = GroupListAdapter(groupList)
+            adapter.submitList(groupList)
         }
         viewModel.loading.observe(this) { loading ->
             swipe_refresh_layout.isRefreshing = loading

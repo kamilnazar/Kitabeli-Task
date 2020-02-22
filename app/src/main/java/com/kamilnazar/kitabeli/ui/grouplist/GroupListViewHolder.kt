@@ -12,37 +12,44 @@ import kotlin.time.milliseconds
 class GroupListViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     private var timer: CountDownTimer? = null
     @ExperimentalTime
-    fun bind(payload: Payload) {
-        itemView.item_name.text = payload.itemDTO?.name
-        Picasso.get()
-            .load(payload.itemDTO?.images?.get(0))
-            .into(itemView.group_image)
-        itemView.item_price.text = "Rp ${payload.itemPrice}"
-        itemView.group_price.text = "Rp ${payload.groupPrice}"
-        itemView.group_join_button.text = buttontext(payload)
-        timer?.cancel()
-        val timeRemaining = (payload.expireAt ?: 0) * 1000 - System.currentTimeMillis()
+    fun bind(payload: Payload?) {
+        if (payload != null) {
+            itemView.item_name.text = payload.itemDTO?.name
+            Picasso.get()
+                .load(payload.itemDTO?.images?.get(0))
+                .into(itemView.group_image)
+            itemView.item_price.text = "Rp ${payload.itemPrice}"
+            itemView.group_price.text = "Rp ${payload.groupPrice}"
+            itemView.group_join_button.text = buttontext(payload)
+            timer?.cancel()
+            val timeRemaining = (payload.expireAt ?: 0) * 1000 - System.currentTimeMillis()
 
-        if (timeRemaining > 0) {
-            enableView(itemView)
-            timer = object : CountDownTimer(timeRemaining, 1000) {
-                override fun onFinish() {
-                    disableView(itemView)
-                }
-
-                override fun onTick(millisUntilFinished: Long) {
-                    millisUntilFinished.milliseconds.toComponents { hours, minutes, seconds, _ ->
-                        itemView.group_timer.text = "$hours : $minutes : $seconds"
+            if (timeRemaining > 0) {
+                enableView(itemView)
+                timer = object : CountDownTimer(timeRemaining, 1000) {
+                    override fun onFinish() {
+                        disableView(itemView)
                     }
-                }
-            }.start()
-        } else disableView(itemView)
+
+                    override fun onTick(millisUntilFinished: Long) {
+                        showCountdownText(millisUntilFinished)
+                    }
+                }.start()
+            } else disableView(itemView)
+        }
+    }
+
+    @ExperimentalTime
+    private fun showCountdownText(milliSec: Long) {
+        milliSec.milliseconds.toComponents { hours, minutes, seconds, _ ->
+            itemView.group_timer.text = "$hours : $minutes : $seconds"
+        }
     }
 
     private fun buttontext(payload: Payload): String {
         val text = StringBuilder("Buy with ${payload.leaderName}")
         if (payload.groupMemberIds?.isNotEmpty() == true) {
-            text.append(" and ${payload.groupMemberIds.size} others")
+            text.append(" and ${payload.groupMemberIds?.size} others")
         }
         return text.toString()
     }
