@@ -18,7 +18,9 @@ class GroupListViewModel(private val groupRepository: GroupRepository) : BaseVie
         viewModelScope.launch {
             try {
                 loading.postValue(true)
-                withContext(IO) { groupRepository.loadFromApi() }
+                withContext(IO) {
+                    groupRepository.loadFromApi()
+                }
             } catch (e: IOException) {
                 Timber.e(e)
             } finally {

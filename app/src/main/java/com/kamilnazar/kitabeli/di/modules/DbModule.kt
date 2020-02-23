@@ -15,7 +15,7 @@ class DbModule {
     @Provides
     @Singleton
     fun provideDb(context: Context, _moshi: Moshi) =
-        Room.databaseBuilder(context, AppDb::class.java, "app_db")
+        Room.inMemoryDatabaseBuilder(context, AppDb::class.java)
             .build().apply { moshi = _moshi }
 
     @Provides

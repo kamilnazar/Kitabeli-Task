@@ -16,8 +16,7 @@ class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Stetho.initializeWithDefaults(this)
-        Timber.plant(Timber.DebugTree())
+        enableDebugTools()
     }
 
     private fun buildAppComponent(): AppComponent {
@@ -27,6 +26,13 @@ class App : Application() {
             .dbModule(DbModule())
             .repoModule(RepoModule())
             .build()
+    }
+
+    private fun enableDebugTools() {
+        if (BuildConfig.DEBUG) {
+            Stetho.initializeWithDefaults(this)
+            Timber.plant(Timber.DebugTree())
+        }
     }
 
     companion object {
