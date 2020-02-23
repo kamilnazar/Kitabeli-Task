@@ -6,6 +6,8 @@ import com.kamilnazar.kitabeli.di.modules.AppModule
 import com.kamilnazar.kitabeli.di.modules.DbModule
 import com.kamilnazar.kitabeli.di.modules.NetworkModule
 import com.kamilnazar.kitabeli.di.modules.RepoModule
+import com.kamilnazar.kitabeli.ui.groupdetail.GroupDetailComponent
+import com.kamilnazar.kitabeli.ui.groupdetail.GroupDetailModule
 import com.kamilnazar.kitabeli.ui.grouplist.GroupListComponent
 import com.squareup.moshi.Moshi
 import dagger.Component
@@ -19,4 +21,6 @@ interface AppComponent {
     fun groupRepo(): GroupRepository
     // Subcomponent
     fun groupListComponent(): GroupListComponent
+
+    fun groupDetailComponent(groupDetailModule: GroupDetailModule): GroupDetailComponent
 }

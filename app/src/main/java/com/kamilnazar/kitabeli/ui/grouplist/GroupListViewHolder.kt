@@ -9,10 +9,26 @@ import kotlinx.android.synthetic.main.open_group_item.view.*
 import kotlin.time.ExperimentalTime
 import kotlin.time.milliseconds
 
-class GroupListViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+class GroupListViewHolder(
+    view: View,
+    groupClickListner: GroupClickListner
+) : RecyclerView.ViewHolder(view) {
     private var timer: CountDownTimer? = null
+    private var payload: Payload? = null
+
+    init {
+        itemView.root.setOnClickListener { groupClickListner.groupDetail(payload?.id) }
+        itemView.group_join_button.setOnClickListener {
+            groupClickListner.joinGroup(
+                payload?.id,
+                1
+            )
+        }
+    }
+
     @ExperimentalTime
     fun bind(payload: Payload?) {
+        this.payload = payload
         if (payload != null) {
             itemView.item_name.text = payload.itemDTO?.name
             Picasso.get()

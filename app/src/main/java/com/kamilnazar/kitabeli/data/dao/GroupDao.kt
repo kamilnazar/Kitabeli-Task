@@ -1,5 +1,6 @@
 package com.kamilnazar.kitabeli.data.dao
 
+import androidx.lifecycle.LiveData
 import androidx.paging.DataSource
 import androidx.room.Dao
 import androidx.room.Insert
@@ -16,4 +17,7 @@ interface GroupDao {
 
     @Query("delete from groups")
     suspend fun deleteAllGroups()
+
+    @Query("select * from groups where :id = id limit 1")
+    fun groupBy(id: Int): LiveData<Payload?>
 }

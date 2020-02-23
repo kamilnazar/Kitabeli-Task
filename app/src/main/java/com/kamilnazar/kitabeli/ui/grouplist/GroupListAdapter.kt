@@ -8,14 +8,14 @@ import com.kamilnazar.kitabeli.R
 import com.kamilnazar.kitabeli.data.models.Payload
 import kotlin.time.ExperimentalTime
 
-class GroupListAdapter :
+class GroupListAdapter(private val groupClickListner: GroupClickListner) :
     PagedListAdapter<Payload, GroupListViewHolder>(DIFF_UTIL) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GroupListViewHolder {
         return GroupListViewHolder(
             LayoutInflater.from(parent.context).inflate(
                 R.layout.open_group_item,
                 parent, false
-            )
+            ),groupClickListner
         )
     }
 

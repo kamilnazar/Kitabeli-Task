@@ -7,4 +7,5 @@ import com.kamilnazar.kitabeli.data.models.Payload
 interface GroupRepository {
     fun allGroups(): LiveData<PagedList<Payload>>
     suspend fun loadFromApi()
+    fun groupById(id: Int): LiveData<Payload?>
 }
