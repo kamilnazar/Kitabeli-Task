@@ -3,6 +3,7 @@ package com.kamilnazar.kitabeli.util
 import android.content.res.Resources
 import android.util.DisplayMetrics
 import android.view.View
+import kotlin.math.round
 import kotlin.math.roundToInt
 
 
@@ -33,4 +34,10 @@ fun View.disableView() {
 fun View.enableView() {
     this.isEnabled = true
     this.alpha = 1f
+}
+
+fun Double.round(decimals: Int): Double {
+    var multiplier = 1.0
+    repeat(decimals) { multiplier *= 10 }
+    return round(this * multiplier) / multiplier
 }

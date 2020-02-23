@@ -28,7 +28,7 @@
         android:layout_marginTop="240dp"
         android:background="@color/materialGreen"
         app:cardCornerRadius="30dp"
-        app:cardElevation="0dp"
+        app:cardElevation="8dp"
         app:layout_constraintBottom_toTopOf="@+id/group_detail_add_to_cart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

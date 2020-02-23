@@ -8,6 +8,7 @@ import com.kamilnazar.kitabeli.R
 import com.kamilnazar.kitabeli.ui.base.BaseActivity
 import com.kamilnazar.kitabeli.util.disableView
 import com.kamilnazar.kitabeli.util.enableView
+import com.kamilnazar.kitabeli.util.round
 import it.sephiroth.android.library.numberpicker.doOnProgressChanged
 import kotlinx.android.synthetic.main.group_detail.*
 import kotlinx.android.synthetic.main.group_detail_content.*
@@ -25,13 +26,13 @@ class GroupDetailActivity : BaseActivity() {
         val viewModel by viewModels<GroupDetailViewModel> { factory }
         val numberFormat = NumberFormat.getNumberInstance()
         quantity_picker.doOnProgressChanged { _, progress, _ ->
-            viewModel._quantity = progress
+            viewModel.quantity = progress
         }
         group_detail_add_to_cart.disableView()
         viewModel.group.observe(this) { payload ->
             if (payload != null) {
                 group_detail_add_to_cart.enableView()
-                viewModel._quantity = 1
+                viewModel.quantity = 1
                 image_slider.setSliderAdapter(
                     GroupImageSliderAdapter(
                         payload.itemDTO?.images ?: listOf<String>()
@@ -40,10 +41,17 @@ class GroupDetailActivity : BaseActivity() {
                 product_name.text = payload.itemDTO?.name
                 group_price.text = "Rp ${numberFormat.format(payload.groupPrice)}"
                 item_price.text = "Rp ${numberFormat.format(payload.itemPrice)}"
+                ratingBar.rating = payload.itemDTO?.rating?.toFloat() ?: 0.0f
+                rating.text = (payload.itemDTO?.rating?.toDouble()?.round(2) ?: 0.0).toString()
+                description.text = payload.itemDTO?.description?.description
             }
         }
         viewModel.totalPrice.observe(this) { totalPrice ->
             total_price.text = "Rp ${numberFormat.format(totalPrice)}"
+        }
+        group_detail_add_to_cart.setOnClickListener {
+            val groupId = viewModel.group.value?.id
+            val quantity = viewModel.quantity
         }
     }
 

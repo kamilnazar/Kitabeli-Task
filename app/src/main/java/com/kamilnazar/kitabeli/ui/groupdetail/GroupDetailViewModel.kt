@@ -10,7 +10,7 @@ class GroupDetailViewModel(private val groupid: Int, private val groupRepository
     val group = groupRepository.groupById(groupid)
     val totalPrice = MutableLiveData(0)
 
-    var _quantity = 0
+    var quantity = 0
         set(value) {
             field = value
             val payload = group.value
