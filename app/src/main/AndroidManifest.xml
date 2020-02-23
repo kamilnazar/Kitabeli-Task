@@ -20,5 +20,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.groupdetail.GroupDetailActivity" />
+        <activity android:name=".ui.cartdetail.CartDetailActivity" />
     </application>
 </manifest>

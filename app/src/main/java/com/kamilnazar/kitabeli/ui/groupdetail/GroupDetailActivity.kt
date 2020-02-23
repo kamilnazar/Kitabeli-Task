@@ -6,6 +6,7 @@ import androidx.activity.viewModels
 import androidx.lifecycle.observe
 import com.kamilnazar.kitabeli.R
 import com.kamilnazar.kitabeli.ui.base.BaseActivity
+import com.kamilnazar.kitabeli.ui.cartdetail.CartDetailActivity
 import com.kamilnazar.kitabeli.util.disableView
 import com.kamilnazar.kitabeli.util.enableView
 import com.kamilnazar.kitabeli.util.round
@@ -52,6 +53,7 @@ class GroupDetailActivity : BaseActivity() {
         group_detail_add_to_cart.setOnClickListener {
             val groupId = viewModel.group.value?.id
             val quantity = viewModel.quantity
+            CartDetailActivity.start(this)
         }
     }
 
