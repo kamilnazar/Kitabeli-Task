@@ -51,9 +51,9 @@ class GroupDetailActivity : BaseActivity() {
             total_price.text = "Rp ${numberFormat.format(totalPrice)}"
         }
         group_detail_add_to_cart.setOnClickListener {
-            val groupId = viewModel.group.value?.id
+            val groupId = viewModel.group.value?.id ?: 0
             val quantity = viewModel.quantity
-            CartDetailActivity.start(this)
+            CartDetailActivity.start(this, groupId, quantity)
         }
     }
 

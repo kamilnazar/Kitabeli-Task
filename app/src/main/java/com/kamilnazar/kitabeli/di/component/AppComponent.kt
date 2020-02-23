@@ -6,6 +6,8 @@ import com.kamilnazar.kitabeli.di.modules.AppModule
 import com.kamilnazar.kitabeli.di.modules.DbModule
 import com.kamilnazar.kitabeli.di.modules.NetworkModule
 import com.kamilnazar.kitabeli.di.modules.RepoModule
+import com.kamilnazar.kitabeli.ui.cartdetail.CartComponent
+import com.kamilnazar.kitabeli.ui.cartdetail.CartModule
 import com.kamilnazar.kitabeli.ui.groupdetail.GroupDetailComponent
 import com.kamilnazar.kitabeli.ui.groupdetail.GroupDetailModule
 import com.kamilnazar.kitabeli.ui.grouplist.GroupListComponent
@@ -23,4 +25,6 @@ interface AppComponent {
     fun groupListComponent(): GroupListComponent
 
     fun groupDetailComponent(groupDetailModule: GroupDetailModule): GroupDetailComponent
+
+    fun cartComponent(cartModule: CartModule): CartComponent
 }
