@@ -8,19 +8,15 @@ class GroupDetailViewModel(private val groupid: Int, private val groupRepository
     BaseViewModel() {
 
     val group = groupRepository.groupById(groupid)
-    val quantity = MutableLiveData(1)
+    val totalPrice = MutableLiveData(0)
 
-    private var _quantity = 1
-
-    fun incrementQuantity() {
-        _quantity++
-        quantity.value = _quantity
-    }
-
-    fun decrementQuantity() {
-        if (_quantity > 1) {
-            _quantity--
-            quantity.value = _quantity
+    var _quantity = 0
+        set(value) {
+            field = value
+            val payload = group.value
+            val price = (payload?.groupPrice ?: 0) * value
+            totalPrice.postValue(price)
         }
-    }
+
+
 }

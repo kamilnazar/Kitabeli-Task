@@ -6,7 +6,12 @@ import androidx.activity.viewModels
 import androidx.lifecycle.observe
 import com.kamilnazar.kitabeli.R
 import com.kamilnazar.kitabeli.ui.base.BaseActivity
+import com.kamilnazar.kitabeli.util.disableView
+import com.kamilnazar.kitabeli.util.enableView
+import it.sephiroth.android.library.numberpicker.doOnProgressChanged
 import kotlinx.android.synthetic.main.group_detail.*
+import kotlinx.android.synthetic.main.group_detail_content.*
+import java.text.NumberFormat
 import javax.inject.Inject
 
 class GroupDetailActivity : BaseActivity() {
@@ -18,9 +23,27 @@ class GroupDetailActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.group_detail)
         val viewModel by viewModels<GroupDetailViewModel> { factory }
-
+        val numberFormat = NumberFormat.getNumberInstance()
+        quantity_picker.doOnProgressChanged { _, progress, _ ->
+            viewModel._quantity = progress
+        }
+        group_detail_add_to_cart.disableView()
         viewModel.group.observe(this) { payload ->
-            image_slider.setSliderAdapter(GroupImageSliderAdapter(payload?.itemDTO?.images ?: listOf<String>()))
+            if (payload != null) {
+                group_detail_add_to_cart.enableView()
+                viewModel._quantity = 1
+                image_slider.setSliderAdapter(
+                    GroupImageSliderAdapter(
+                        payload.itemDTO?.images ?: listOf<String>()
+                    )
+                )
+                product_name.text = payload.itemDTO?.name
+                group_price.text = "Rp ${numberFormat.format(payload.groupPrice)}"
+                item_price.text = "Rp ${numberFormat.format(payload.itemPrice)}"
+            }
+        }
+        viewModel.totalPrice.observe(this) { totalPrice ->
+            total_price.text = "Rp ${numberFormat.format(totalPrice)}"
         }
     }
 

@@ -2,6 +2,7 @@ package com.kamilnazar.kitabeli.util
 
 import android.content.res.Resources
 import android.util.DisplayMetrics
+import android.view.View
 import kotlin.math.roundToInt
 
 
@@ -23,3 +24,13 @@ fun Int.dpToPx(): Float {
 //    val h = seconds / (60 * 60) % 24
 //    return String.format("%d:%02d:%02d", h, m, s)
 //}
+
+fun View.disableView() {
+    this.isEnabled = false
+    this.alpha = 0.5f
+}
+
+fun View.enableView() {
+    this.isEnabled = true
+    this.alpha = 1f
+}
