@@ -24,6 +24,9 @@ class GroupListViewHolder(
                 1
             )
         }
+        itemView.group_share.setOnClickListener {
+            groupClickListner.shareGroup(payload)
+        }
     }
 
     @ExperimentalTime

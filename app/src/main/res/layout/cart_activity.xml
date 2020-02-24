@@ -46,6 +46,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            app:imageUrl="@{viewModel.group}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@{viewModel.group.groupPrice}"
+            android:text="@{viewModel.priceCalculation}"
             app:layout_constraintBottom_toBottomOf="@+id/cart_item_image"
             app:layout_constraintStart_toEndOf="@+id/cart_item_image" />
 
@@ -103,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:text="Rp 3000"
+            android:text="@{viewModel.totalPrice}"
             app:layout_constraintBottom_toBottomOf="@+id/textView6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView6" />
@@ -114,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:text="sdf"
+            android:text="@{viewModel.priceCalculation}"
             app:layout_constraintBottom_toBottomOf="@+id/total_price"
             app:layout_constraintEnd_toStartOf="@+id/total_price" />
 
@@ -146,7 +147,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="5dp"
                 android:layout_toEndOf="@+id/total"
-                android:text="Rp 3000"
+                android:text="@{viewModel.totalPrice}"
                 android:textColor="#FFF"
                 android:textSize="18sp" />
 
