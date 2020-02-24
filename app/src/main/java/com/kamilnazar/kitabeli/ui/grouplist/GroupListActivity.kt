@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.snackbar.Snackbar
 import com.kamilnazar.kitabeli.R
 import com.kamilnazar.kitabeli.data.models.Payload
 import com.kamilnazar.kitabeli.ui.base.BaseActivity
@@ -31,6 +32,14 @@ class GroupListActivity : BaseActivity(), GroupClickListner {
         }
         viewModel.loading.observe(this) { loading ->
             swipe_refresh_layout.isRefreshing = loading
+        }
+        viewModel.error.observe(this) { error ->
+            if (error)
+                Snackbar.make(
+                    swipe_refresh_layout,
+                    "Cannot load groups. Please check your connection.",
+                    Snackbar.LENGTH_SHORT
+                ).show()
         }
         swipe_refresh_layout.setOnRefreshListener {
             viewModel.loadGroups()

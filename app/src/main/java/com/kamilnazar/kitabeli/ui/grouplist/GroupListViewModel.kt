@@ -8,12 +8,12 @@ import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import timber.log.Timber
-import java.io.IOException
 
 class GroupListViewModel(private val groupRepository: GroupRepository) : BaseViewModel() {
 
     val groups = groupRepository.allGroups()
     val loading: MutableLiveData<Boolean> = MutableLiveData(true)
+    val error: MutableLiveData<Boolean> = MutableLiveData()
     fun loadGroups() {
         viewModelScope.launch {
             try {
@@ -21,8 +21,9 @@ class GroupListViewModel(private val groupRepository: GroupRepository) : BaseVie
                 withContext(IO) {
                     groupRepository.loadFromApi()
                 }
-            } catch (e: IOException) {
+            } catch (e: Exception) {
                 Timber.e(e)
+                error.postValue(true)
             } finally {
                 loading.postValue(false)
             }
